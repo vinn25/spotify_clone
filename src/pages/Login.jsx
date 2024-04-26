@@ -71,12 +71,27 @@ const Login = () => {
             placeholder="Enter your email"
             color="success"
             onChange={emailHandler}
-            sx={{
-              bgcolor: "white",
-              border: "2px solid green",
-              borderRadius: "5px",
-              width: "80%",
-            }}
+            // sx={{
+            //   bgcolor: "white",
+            //   border: "2px solid green",
+            //   borderRadius: "5px",
+            //   width: "80%",
+            // }}
+            sx={
+              emailValid
+                ? {
+                    bgcolor: "white",
+                    border: "2px solid green",
+                    borderRadius: "5px",
+                    width: "80%",
+                  }
+                : {
+                    bgcolor: "white",
+                    border: "2px solid red",
+                    borderRadius: "5px",
+                    width: "80%",
+                  }
+            }
           />
           <Typography
             variant="body2"
@@ -93,19 +108,34 @@ const Login = () => {
             type="password"
             color="success"
             onChange={passHandler}
-            sx={{
-              bgcolor: "white",
-              border: "2px solid green",
-              borderRadius: "5px",
-              width: "80%",
-            }}
+            // sx={{
+            //   bgcolor: "white",
+            //   border: "2px solid green",
+            //   borderRadius: "5px",
+            //   width: "80%",
+            // }}
+            sx={
+              passValid
+                ? {
+                    bgcolor: "white",
+                    border: "2px solid green",
+                    borderRadius: "5px",
+                    width: "80%",
+                  }
+                : {
+                    bgcolor: "white",
+                    border: "2px solid red",
+                    borderRadius: "5px",
+                    width: "80%",
+                  }
+            }
           />
           <Typography
             variant="body2"
             fontWeight="bold"
             sx={passValid ? { color: "green" } : { color: "" }}
           >
-            {passValid ? "Password Valid" : ""}
+            {/* {passValid ? "Password Valid" : ""} */}
           </Typography>
 
           <Link
