@@ -98,7 +98,7 @@ const Login = () => {
             fontWeight="bold"
             sx={emailValid ? { color: "green" } : { color: "" }}
           >
-            {emailValid ? "Email Valid" : ""}
+            {/* {emailValid ? "Email Valid" : ""} */}
           </Typography>
         </Stack>
 
