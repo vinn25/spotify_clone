@@ -6,8 +6,8 @@ import Spotify from "./pages/Spotify";
 const App = () => {
   return (
     <Box>
-      <Login />
-      {/* <Spotify /> */}
+      {/* <Login /> */}
+      <Spotify />
     </Box>
   );
 };

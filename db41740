@@ -1,0 +1,9 @@
+[33m9207764[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mLogin[m[33m, [m[1;31mspotify_clone/Login[m[33m)[m HEAD@{0}: reset: moving to HEAD^
+[33mdb41740[m HEAD@{1}: commit: Spotify - Sidebar & Feed Structure
+[33m9207764[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mLogin[m[33m, [m[1;31mspotify_clone/Login[m[33m)[m HEAD@{2}: commit: Login validation v2 (fixed)
+[33m94ffae7[m HEAD@{3}: commit: Login validation v2
+[33m899c281[m HEAD@{4}: commit: Login validation v1
+[33m97657d9[m[33m ([m[1;31mspotify_clone/main[m[33m)[m HEAD@{5}: Branch: renamed refs/heads/main to refs/heads/Login
+[33m97657d9[m[33m ([m[1;31mspotify_clone/main[m[33m)[m HEAD@{7}: Branch: renamed refs/heads/master to refs/heads/main
+[33m97657d9[m[33m ([m[1;31mspotify_clone/main[m[33m)[m HEAD@{9}: commit: Login done
+[33m17ad875[m HEAD@{10}: commit (initial): Initialize project using Create React App
