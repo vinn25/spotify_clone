@@ -53,7 +53,8 @@ const SidebarTop = () => {
           </ListItem>
         </Stack>
 
-        <Divider sx={{ my: "5%" }} />
+        {/* <Divider sx={{ my: "5%" }} /> */}
+        <Box sx={{ bgcolor: "white", p: "0.5%", mx: "5%", my: "5%" }}></Box>
 
         <Stack spacing={-1}>
           <ListItem>
