@@ -6,10 +6,10 @@ import SidebarBottom from "./SidebarBottom";
 const Sidebar = () => {
   return (
     <Box>
-      <Box bgcolor="orange">
+      <Box bgcolor="">
         <SidebarTop />
       </Box>
-      <Box bgcolor="lightblue">
+      <Box bgcolor="">
         <SidebarBottom />
       </Box>
     </Box>

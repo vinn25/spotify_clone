@@ -21,9 +21,15 @@ const SidebarTop = () => {
   return (
     <Box>
       <List>
-        <Stack spacing={-1}>
+        <Stack spacing={-1.5}>
           <ListItem>
-            <ListItemButton sx={{ borderRadius: "10px", padding: "5%" }}>
+            <ListItemButton
+              sx={{
+                borderRadius: "10px",
+                padding: "5%",
+                "&:hover": { bgcolor: "grey" },
+              }}
+            >
               <ListItemIcon>
                 <HomeIcon sx={{ color: "white" }} />
               </ListItemIcon>
@@ -33,7 +39,13 @@ const SidebarTop = () => {
           </ListItem>
 
           <ListItem>
-            <ListItemButton sx={{ borderRadius: "10px", padding: "5%" }}>
+            <ListItemButton
+              sx={{
+                borderRadius: "10px",
+                padding: "5%",
+                "&:hover": { bgcolor: "grey" },
+              }}
+            >
               <ListItemIcon>
                 <PodcastsIcon sx={{ color: "white" }} />
               </ListItemIcon>
@@ -43,7 +55,13 @@ const SidebarTop = () => {
           </ListItem>
 
           <ListItem>
-            <ListItemButton sx={{ borderRadius: "10px", padding: "5%" }}>
+            <ListItemButton
+              sx={{
+                borderRadius: "10px",
+                padding: "5%",
+                "&:hover": { bgcolor: "grey" },
+              }}
+            >
               <ListItemIcon>
                 <LibraryMusicIcon sx={{ color: "white" }} />
               </ListItemIcon>
@@ -56,9 +74,15 @@ const SidebarTop = () => {
         {/* <Divider sx={{ my: "5%" }} /> */}
         <Box sx={{ bgcolor: "white", p: "0.5%", mx: "5%", my: "5%" }}></Box>
 
-        <Stack spacing={-1}>
+        <Stack spacing={-1.5}>
           <ListItem>
-            <ListItemButton sx={{ borderRadius: "10px", padding: "5%" }}>
+            <ListItemButton
+              sx={{
+                borderRadius: "10px",
+                padding: "5%",
+                "&:hover": { bgcolor: "grey" },
+              }}
+            >
               <ListItemIcon>
                 <AddBoxIcon sx={{ color: "white" }} />
               </ListItemIcon>
@@ -68,7 +92,13 @@ const SidebarTop = () => {
           </ListItem>
 
           <ListItem>
-            <ListItemButton sx={{ borderRadius: "10px", padding: "5%" }}>
+            <ListItemButton
+              sx={{
+                borderRadius: "10px",
+                padding: "5%",
+                "&:hover": { bgcolor: "grey" },
+              }}
+            >
               <ListItemIcon>
                 <FavoriteBorderIcon sx={{ color: "white" }} />
               </ListItemIcon>
@@ -78,7 +108,8 @@ const SidebarTop = () => {
           </ListItem>
 
           {/* <ListItem>
-            <ListItemButton sx={{ borderRadius: "10px", padding: "5%" }}>
+            <ListItemButton sx={{ borderRadius: "10px", padding: "5%",
+                "&:hover": { bgcolor: "grey" } }}>
               <ListItemIcon>
                 <LibraryMusicIcon sx={{ color: "white" }} />
               </ListItemIcon>
@@ -88,7 +119,13 @@ const SidebarTop = () => {
           </ListItem> */}
 
           <ListItem>
-            <ListItemButton sx={{ borderRadius: "10px", padding: "5%" }}>
+            <ListItemButton
+              sx={{
+                borderRadius: "10px",
+                padding: "5%",
+                "&:hover": { bgcolor: "grey" },
+              }}
+            >
               <ListItemIcon>
                 <HistoryIcon sx={{ color: "white" }} />
               </ListItemIcon>
